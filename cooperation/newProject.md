@@ -18,15 +18,15 @@
 
 그리고 GitBook Editor에 이 저장소를 연결해 줍니다. GitBook Editor에서 \[Book\]-\[Repository Sittings...\] 메뉴를 이용하면 됩니다. Repository Settings 대화상자에 Github 접근경로를 적어주시면 됩니다.
 
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_repo.png)
+![](/assets/import.png)
 
 이 후 저장소와 동기화를 위해 \[Book\]-\[Sync\] 메뉴를 누르시면 동기화가 진행되어 내가 새로 만든 GitBook이 새로 만든 GitHub 저장소에 올라가게 됩니다. 이 때 GitHub 계정에 대한 정보가 입력되지 않은 상태라면 계정 정보를 물어볼 수도 있습니다.
 
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/%E3%85%9C%E3%84%B7%E3%85%88_%E3%85%A0%E3%85%90%E3%85%90%E3%85%8F_%ED%96%90%EC%86%8C%E3%85%95%E3%85%A0_%E3%85%81%E3%85%8A%EC%B1%84%E3%85%95%E3%85%9C%E3%85%85.png)
+![](/assets/sync.PNG)
 
 동기화가 완료된 후 GitHub.com의 해당 저장소 페이지에 가서 웹 페이지를 갱신해 보시면 다음처럼 자동생성된 md 파일들을 보실 수 있습니다.
 
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_reop.png)이 GitHub 저장소를 사람들에게 알려주고 clone 받도록 하면 GitBook을 이용해 새로운 문서 프로젝트를 진행하실 수 있습니다.
+![](/assets/main.PNG)이 GitHub 저장소를 사람들에게 알려주고 clone 받도록 하면 GitBook을 이용해 새로운 문서 프로젝트를 진행하실 수 있습니다.
 
 저의 경우는 GitBook Editor가 업데이트 되면서 이 기능에 갑자기 오류가 생겼습니다. 대신 \[Book\]-\[Sync\] 메뉴을 눌렀더니 저장소 설정을 할 수 있었습니다. 아마 일시적인 버그인 듯 합니다.
 
@@ -38,17 +38,29 @@
 
 먼저[https://gitbook.com](https://gitbook.com/)에 접속해 로그인 합니다. 그리고 상단 오른쪽의 계정 아이콘 옆의 삼각형을 눌러 계정관련 메뉴들을 펼칩니다. 이 중 \[Account Settings\] 메뉴에 GitHub 저장소의 책을 가져오는 기능이 숨어 있습니다.
 
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_import2.png)
+![](/assets/menu.png)
 
-Personal settings에서 \[GitHub\] 탭을 선택하고 \[Create a Book from GitHub\] 버튼을 누릅니다.
-
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_repo_create.png)
+Personal settings에서 \[GitHub\] 탭을 선택하고 \[Create a Book from GitHub\] 버튼을 누릅니다.![](/assets/setting.png)
 
 Create a new book 화면에서 GIT 탭을 선택하고\(GitHub 탭은 자기 계정뿐이 못 보는 문제가 있음\) Title과 Git 저장소의 경로를 입력해 주고 \[Create Book\] 버튼을 누르면 GitHub에 있는 책이 GitBook 계정으로 들어오게 됩니다.
 
 ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_create_book.png)
 
-이렇게 GitBook에 책을 올리게 되면 별도 서버 없이도 온라인에서 볼 수 있는 책을 만들거나 pdf 등을 생산할 수 있습니다. 하지만 이렇게 만들어진 GitBook은 GitHub와 연동되어 자동 갱신되지 않으니 가능하다면 책이 완성된 후에 올려 주는 것이 좋습니다.
+이렇게 GitBook에 책을 올리게 되면 별도 서버 없이도 온라인에서 볼 수 있는 책을 만들거나 pdf 등을 생산할 수 있습니다.
 
-앞의 단계에서 GIT에서 가져와 책을 만들지 말고 GITHUB에서 가져와 책을 만들면 자동 싱크가 지원됩니다. 하지만, 자신의 개인 계정이 아닌 기관에 소속된 저장소를 가져오지 못하는 버그가 있어 GITHUB를 이용한 방법을 사용하지 못했습니다.
+## 이미 만들어진 GitBook을 GitHub와 연동하기 {#github-저장소를-gitbook-계정에도-올리기}
+
+먼저 \[SETTING\] 탭을 선택합니다.![](/assets/setting_2.png)
+
+\[GitHub\] 선택 후 연동 할 \[repository\]를 선택합니다.![](/assets/setting_3.png)
+
+\[sync\] 버튼을 눌러 연동을 진행합니다.
+
+![](/assets/setting_4.png)
+
+
+
+정상적으로 진행되면 다음과 같은 화면이 나타납니다.![](/assets/setting_5.png)
+
+
 

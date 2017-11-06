@@ -17,9 +17,9 @@
   * [플러그인 추가](editor/plugin.md)
 * [협업을 위한 GitBook 설정 방법](cooperation/README.md)
   * [필요 프로그램 설치 및 계정 생성](cooperation/setup.md)
+  * [새로운 프로젝트 및 문서 만들기](cooperation/newProject.md)
   * [작업할 책을 GitHub에서 받아와 열기](cooperation/gitClone.md)
   * [문서내용 작성하기](cooperation/contents.md)
   * [주의사항](editor/danger.md)
-  * [새로운 프로젝트 및 문서 만들기](cooperation/newProject.md)
 * [GitBook Site](https://www.gitbook.com/)
 
