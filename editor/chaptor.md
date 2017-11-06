@@ -1,6 +1,6 @@
 # 챕터와 서브챕터 {#챕터와-서브챕터}
 
-깃북은 SUMMARY.md 파일을 사용하여 책에 쓰일 챕터와 서브챕터를 정의할 수 있다.
+GitBook은 SUMMARY.md 파일을 사용하여 책에 쓰일 챕터와 서브챕터를 정의할 수 있다.
 
 SUMMARY.md 파일은 일반적으로 책의 컨텐츠 테이블을 만드는데 사용된다.
 
@@ -17,7 +17,6 @@ SUMMARY.md 의 포멧은 간단한 링크들의 목록이다.
 * [Chapter 1](chapter1.md)
 * [Chapter 2](chapter2.md)
 * [Chapter 3](chapter3.md)
-
 ```
 
 ## 서브챕터 예제 {#서브챕터-예제}
@@ -31,7 +30,6 @@ SUMMARY.md 의 포멧은 간단한 링크들의 목록이다.
 * [Part II](part2/README.md)
     * [We love feedback](part2/feedback_please.md)
     * [Better tools for authors](part2/better_tools.md)
-
 ```
 
 # 역주 {#역주}
