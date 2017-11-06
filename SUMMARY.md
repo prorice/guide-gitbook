@@ -22,4 +22,5 @@
   * [문서내용 작성하기](cooperation/contents.md)
   * [주의사항](editor/danger.md)
 * [GitBook Site](https://www.gitbook.com/)
+* [추가정보](moreinfo.md)
 

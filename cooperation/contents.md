@@ -14,7 +14,7 @@ Sync 기능을 처음 수행하면 GitHub.com의 계정을 물어봅니다. 앞�
 
 다시 한번 강조합니다. 문서를 열고나면 반드시 Sync 기능을 실행해 원격저장소의 변경사항을 받아 오십시오.
 
-책을 작업하는 화면은 일반적인 문서편집기와 유사합니다. 문단양식, 강조, 그림삽입, 링크, 각주, 수식 등 간단한 편집을 지원하며 소스코드에 대한 강조 기능등도 있습니다. 하지만, 문단양식별로 표현을 변경하거나 글자의 색을바꾸는 기능은 지원하지 않습니다. 이런 문서 표현에 관한 것들은 조판\(Publish\)시에 결정되게 됩니다. 이럴게 컨텐츠 작성과 표현이 분리됨으로 하나의 소스로 HTML, PDF, ePub 등 다양한 형태의 출판물을 만들 수 있다는 장점이 있습니다.![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/open_book.png)
+책을 작업하는 화면은 일반적인 문서편집기와 유사합니다. 문단양식, 강조, 그림삽입, 링크, 각주, 수식 등 간단한 편집을 지원하며 소스코드에 대한 강조 기능등도 있습니다. 하지만, 문단양식별로 표현을 변경하거나 글자의 색을바꾸는 기능은 지원하지 않습니다. 이런 문서 표현에 관한 것들은 조판\(Publish\)시에 결정되게 됩니다. 이럴게 컨텐츠 작성과 표현이 분리됨으로 하나의 소스로 HTML, PDF, ePub 등 다양한 형태의 출판물을 만들 수 있다는 장점이 있습니다.![](/assets/intro.PNG)
 
 ## 새 챕터 만들기 {#newchaptor}
 
@@ -25,19 +25,19 @@ Sync 기능을 처음 수행하면 GitHub.com의 계정을 물어봅니다. 앞�
 새 챕터를 만들때의 표준 작업방식은 다음과 같습니다.
 
 1. \[+Add an article\] 버튼을 눌러 챕터 추가를 시작합니다.  
-   ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/add_article.png)
+   ![](/assets/menu_1.PNG)
 
 2. 가능한 한 짧은 영문으로 Title을 입력합니다. 저는 '추가정보' 라는 챕터를 위해 'more\_info'라고 했습니다. \[Add\]를 누르면 실제로 파일이 생깁니다.  
    ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/article_title.png)
 
 3. 영문으로 생성된 챕터명의 오른쪽에 가면 연필모양 편집버튼이 생깁니다. 이를 눌러 챕터명을 한글로 수정합니다.  
-   ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/chapter_rename.png)
+   ![](/assets/menu_2.PNG)
 
 4. 문서 편집기 부분으로 가서 제일 상단에 챕터명을 적고 이를 Heading1 문단형식으로 바꿉니다. 툴바 혹은 단축키 &lt;Shft-Ctl-1&gt;을 이용하면 됩니다. 그 아래에는 저자명을 적어 줍니다.  
-   ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/chptor_h1.png)
+   ![](/assets/menu_3.PNG)
 
 5. FILES 탭에 가보면 more\_info.md 파일이 생긴 것을 확인할 수 있습니다. 이제 내가 작성하는 내용은 이 파일에 기록될 것입니다.  
-   ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/article_files.png)
+   ![](/assets/files.png)
 
 6. 챕터를 만들었으면 즉시 \[Save\]와 \[Sync\] 버튼을 눌러 저장하고 원격저장소에 올려주십시오. 파일의 리스트는 SUMMARY.md 파일에 저장되는데 이 파일이 충돌이 가장 많이 발생하므로 새 챕터 생성 즉시 원격저장소에까지 올려주셔야 공동작업시의 충돌을 줄일 수 있습니다.  
    ![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/chaptor_save_sync.png)
@@ -59,10 +59,6 @@ Sync 기능을 처음 수행하면 GitHub.com의 계정을 물어봅니다. 앞�
 두번째 줄에는 각 챕터를 맏은 분의 이름을 기록해 주시길 부탁드립니다. 각 챕터는 작성자의 실명\(혹은 별명\)을 확히 밝혀 출판될 예졍입니다.
 
 챕터 내에 새부적인 장절이 필요한 경우 Heading 2, 3, 4등을 사용하여 제목을 세부 제목을 적어주시면 됩니다. 이 때 각 장절의 번호는 적지 않는 것을 원칙으로 합니다. 장절의 번호는 추후 편집시 만들 예정입니다.
-
-실제 내용을 작성시에는 Paragraph를 선택하시면 됩니다. 즉 문서 양식이 없는 상태로 작성해주시면 나중에 일괄적으로 양식을 잡을 것입니다. 실제 작성예는 다음과 같습니다.
-
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/paragraph.png)
 
 ### 그림 삽입하기 {#그림-삽입하기}
 
