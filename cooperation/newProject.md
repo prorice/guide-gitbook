@@ -44,7 +44,7 @@ Personal settings에서 \[GitHub\] 탭을 선택하고 \[Create a Book from GitH
 
 Create a new book 화면에서 GIT 탭을 선택하고\(GitHub 탭은 자기 계정뿐이 못 보는 문제가 있음\) Title과 Git 저장소의 경로를 입력해 주고 \[Create Book\] 버튼을 누르면 GitHub에 있는 책이 GitBook 계정으로 들어오게 됩니다.
 
-![](https://jangbi882.gitbooks.io/gitbook-guide/content/assets/new_book_create_book.png)
+![](/assets/create.png)
 
 이렇게 GitBook에 책을 올리게 되면 별도 서버 없이도 온라인에서 볼 수 있는 책을 만들거나 pdf 등을 생산할 수 있습니다.
 
@@ -58,9 +58,5 @@ Create a new book 화면에서 GIT 탭을 선택하고\(GitHub 탭은 자기 계
 
 ![](/assets/setting_4.png)
 
-
-
 정상적으로 진행되면 다음과 같은 화면이 나타납니다.![](/assets/setting_5.png)
-
-
 
